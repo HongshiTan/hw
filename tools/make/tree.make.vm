@@ -7,7 +7,7 @@
 ## ================================================================
 ##
 ## set the chip you want to build 
-PROJECTS := nv_full
+PROJECTS := nv_large nv_small
 
 #=================
 # ENV TOOL setup
