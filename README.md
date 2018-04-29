@@ -1,4 +1,4 @@
-# NVDLA Open Source Hardware
+# NVDLA Open Source Hardware, version 1.0
 ---
 
 ## NVDLA
@@ -10,11 +10,22 @@ Learn more about NVDLA on the project web page.
 
 <http://nvdla.org/>
 
+## About this release
+
+This release, in the `nvdlav1` branch, contains the non-configurable
+"full-precision" version of NVDLA.  This non-configurable version is fixed
+at 2048 8-bit MACs (or 1024 16-bit fixed- or floating-point MACs).  This
+branch is expected to be a stable sustaining release; although bug fixes may
+be added, new RTL feature improvements will not appear in this branch. 
+Additionally, this branch will diverge from the `master` branch; commits
+from that branch may be cherry-picked into this branch, but wholesale merges
+from `master` will not appear on `nvdlav1`.
+
 ## Online Documentation
 
 NVDLA documentation is located [here](http://nvdla.org/contents.html).  Hardware specific 
 documentation is located at the following pages.
-* [Hardware Architecture](http://http://nvdla.org/hwarch.html).
+* [Hardware Architecture](http://nvdla.org/hwarch.html).
 * [Integrator's Manual](http://nvdla.org/integration_guide.html).
 
 This README file contains only basic information.
